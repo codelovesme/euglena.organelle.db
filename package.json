@@ -1,0 +1,27 @@
+{
+  "name": "@euglena/organelle.store",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codelovesme/euglena.organelle.db.git"
+  },
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "author": "codelovesme",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/codelovesme/euglena.organelle.db/issues"
+  },
+  "homepage": "https://github.com/codelovesme/euglena.organelle.db#readme",
+  "dependencies": {
+    "@euglena/core": "file://../euglena-bitbucket",
+    "cessnalib": "^0.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
+}
